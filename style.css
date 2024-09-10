@@ -1,0 +1,56 @@
+.logo {
+    width: 100px;
+    border-radius: 200px;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.nav-items > ul  {
+    display: flex;
+}
+
+.nav-items > ul > li  {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.bodylayout {
+    margin-top: 20px;
+    /* border: 1px solid; */
+}
+
+.restdiv {
+    width: 200px;
+    height: 350px;
+    padding: 10px 15px 10px 15px;
+}
+
+.restdiv:hover {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.restimg {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.searchinput {
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    border : 0px solid;
+    background-color: antiquewhite;
+}
+
+.searchspace {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
