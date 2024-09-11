@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import logo from "/Logo.jpg";
+import { restinfo } from "./data";
 
 const HeaderLayout = () => {
   return (
@@ -32,27 +33,25 @@ const BodyLayout = () => {
         />
       </div>
       <div className="restaurentcont">
-        <RestCont />
-        <RestCont />
-        <RestCont />
-        <RestCont />
-        <RestCont />
-        <RestCont />
+        {restinfo.map((restuarant) => (
+          <RestCont key={restuarant.id} restprop={restuarant} />
+        ))}
       </div>
     </div>
   );
 };
 
-const RestCont = () => {
+const RestCont = (props) => {
+  const { restprop } = props;
+  const { restimg, restname, cuisine, rating, deltime } = restprop;
   return (
     <div className="restdiv">
-      <img
-        className="restimg"
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/29/4210a054-9608-4840-b00f-0aaf9a5bd332_1bf1f7a4-c59f-42b0-b2b8-9ac8615cbcc7.JPG"
-      />
-      <h4>Champaran Handi Restaurant</h4>
-      <h5>Asian-Chinese-Russian</h5>
-      <h6>4.5 55min-75min</h6>
+      <img className="restimg" src={restimg} />
+      <h4 className="displayprop">{restname}</h4>
+      <h5 className="displayprop">{cuisine}</h5>
+      <h6>
+        {rating} {deltime}
+      </h6>
     </div>
   );
 };

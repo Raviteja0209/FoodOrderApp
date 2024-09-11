@@ -10,6 +10,11 @@
     padding: 5px;
 }
 
+.restaurentcont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .nav-items > ul  {
     display: flex;
 }
@@ -28,6 +33,11 @@
     width: 200px;
     height: 350px;
     padding: 10px 15px 10px 15px;
+    overflow: hidden;
+}
+
+.displayprop {
+ word-wrap: break-word;
 }
 
 .restdiv:hover {
