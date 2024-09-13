@@ -1,4 +1,4 @@
-import restinfo from "../utils/data";
+import restinfo from "/src/utils/data";
 import RestCont from "./RestCont";
 
 const BodyLayout = () => {
