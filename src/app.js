@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import logo from "/Logo.jpg";
+import logo from "src/Images/Logo.jpg";
 import { restinfo } from "./data";
 
 const HeaderLayout = () => {
