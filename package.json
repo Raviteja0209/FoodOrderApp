@@ -4,7 +4,7 @@
   "description": "basic foodordering app",
   "scripts": {
     "test": "test",
-    "start": "parcel index.html"
+    "start": "parcel src/index.html"
   },
   "keywords": [
     "dev"

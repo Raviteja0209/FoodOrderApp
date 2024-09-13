@@ -1,13 +1,13 @@
-import hotel1 from "src/Images/hotel1.jpg";
-import hotel2 from "src/Images/hotel2.jpg";
-import hotel3 from "src/Images/hotel3.jpg";
-import hotel4 from "src/Images/hotel4.jpg";
-import hotel5 from "src/Images/hotel5.jpg";
-import hotel6 from "src/Images/hotel6.jpg";
-import hotel7 from "src/Images/hotel7.jpg";
-import hotel8 from "src/Images/hotel8.jpg";
+import hotel1 from "/src/Images/hotel1.jpg";
+import hotel2 from "/src/Images/hotel2.jpg";
+import hotel3 from "/src/Images/hotel3.jpg";
+import hotel4 from "/src/Images/hotel4.jpg";
+import hotel5 from "/src/Images/hotel5.jpg";
+import hotel6 from "/src/Images/hotel6.jpg";
+import hotel7 from "/src/Images/hotel7.jpg";
+import hotel8 from "/src/Images/hotel8.jpg";
 
-export const restinfo  =  [
+const restinfo  =  [
     {
         "id" : 1,
         "restimg" : hotel1,
@@ -73,3 +73,5 @@ export const restinfo  =  [
         "deltime" : "25-30 mins"
     },
 ]
+
+export default restinfo;
