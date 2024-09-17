@@ -21,7 +21,7 @@ const restinfo  =  [
         "restimg" : hotel2,
         "restname" : "Hotel Rumaan",
         "cuisine" : "Hyderabadi,Biriyani,Charminar",
-        "rating" : "4.4",
+        "rating" : "3.5",
         "deltime" : "30-35 mins"
     },
     {
@@ -53,7 +53,7 @@ const restinfo  =  [
         "restimg" : hotel6,
         "restname" : "Rumaan Restaurant",
         "cuisine" : "Biryani,Chinese,Kebabs,Tandoor,Chandrayangutta",
-        "rating" : "4.3",
+        "rating" : "3.8",
         "deltime" : "25-30 mins"
     },
     {
@@ -61,7 +61,7 @@ const restinfo  =  [
         "restimg" : hotel7,
         "restname" : "Santosh Dhaba",
         "cuisine" : "Biryani,Chinese,Kebabs,Tandoor,Chandrayangutta",
-        "rating" : "4.3",
+        "rating" : "3.9",
         "deltime" : "25-30 mins"
     },
     {

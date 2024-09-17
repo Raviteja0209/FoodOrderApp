@@ -64,3 +64,8 @@
     justify-content: center;
 }
 
+.filterbtn {
+    margin-left: 20px;
+    float: right;
+}
+
