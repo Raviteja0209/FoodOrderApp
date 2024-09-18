@@ -15,6 +15,11 @@
     flex-wrap: wrap;
 }
 
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .nav-items > ul  {
     display: flex;
 }
@@ -34,6 +39,14 @@
     height: 350px;
     padding: 10px 15px 10px 15px;
     overflow: hidden;
+}
+
+.shimmer-body {
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    padding: 10px 15px 10px 15px;
+    background-color: #f0f0f0;
 }
 
 .displayprop {

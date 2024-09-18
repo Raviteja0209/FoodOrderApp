@@ -7,6 +7,12 @@ import hotel6 from "/src/Images/hotel6.jpg";
 import hotel7 from "/src/Images/hotel7.jpg";
 import hotel8 from "/src/Images/hotel8.jpg";
 
+export const fetchInfo = async () => {
+    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.335031&lng=78.4833637&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+    const response = await data.json();
+    return restinfo;
+}
+
 const restinfo  =  [
     {
         "id" : 1,
